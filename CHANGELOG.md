@@ -2,6 +2,19 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.18.0 — 2026-10-28
+
+- Email templates: two ready-made ones, Short (my usual) matching the message you already send, and Detailed with payment info. Pick one in the email box and the subject and message fill in.
+- Placeholders like {client_first_name} and {period} fill in the client's name and the dates covered, e.g. July 27 - September 18, 2026.
+- Email templates section to edit, add or delete templates, choose the default, and preview with the current invoice. Built-in templates can be reset to their original wording.
+- Save as template in the email box keeps a message you wrote for next time.
+- Templates sync through GitHub, so every computer has the same ones.
+
+## v1.17.1 — 2026-10-28
+
+- Create invoice only saves the invoice; it no longer downloads the PDF. Use Download PDF (top bar, Invoices tab, or the email box) when you need the file.
+- Email via Gmail now starts with a Download PDF step so the file is ready to attach. Send now (automatic) still attaches the PDF for you.
+
 ## v1.17.0 — 2026-10-28
 
 - Automatic email sending: after a one-time setup with a free Google Apps Script in your own Google account, Send now emails the invoice from your Gmail with the PDF attached. No Gmail tab, no manual attaching.
