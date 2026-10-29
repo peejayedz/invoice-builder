@@ -2,6 +2,12 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.19.0 — 2026-10-30
+
+- Invoices only opens after a successful GitHub sync. If this device isn't connected, a box asks for your GitHub token first; if GitHub can't be reached, it explains and offers Try again.
+- Create invoice also syncs first, so a new invoice always gets the right number and is saved to GitHub.
+- Turning off GitHub sync now asks for confirmation.
+
 ## v1.18.0 — 2026-10-28
 
 - Email templates: two ready-made ones, Short (my usual) matching the message you already send, and Detailed with payment info. Pick one in the email box and the subject and message fill in.
