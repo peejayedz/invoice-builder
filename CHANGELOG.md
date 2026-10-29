@@ -2,6 +2,12 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.19.1 — 2026-10-30
+
+- If your GitHub token expires or stops working, the sync box now asks for a new token right there, so you can reconnect without leaving the page.
+- Before asking, it checks whether another computer already saved a newer token in your records and uses that.
+- Connection errors offer Try again plus a link to connect with a new token.
+
 ## v1.19.0 — 2026-10-30
 
 - Invoices only opens after a successful GitHub sync. If this device isn't connected, a box asks for your GitHub token first; if GitHub can't be reached, it explains and offers Try again.
