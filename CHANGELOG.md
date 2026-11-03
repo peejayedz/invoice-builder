@@ -2,6 +2,15 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.20.0 — 2026-11-02
+
+- Partial payments: Record payment on any invoice to enter the amount you received, the date and an optional note. Add more payments as they come in.
+- Invoices now show Unpaid, Partly paid (with how much is still owed) or Paid. Filter by Still owed, Unpaid, Partly paid or Paid.
+- Totals show Received and Outstanding instead of Paid and Unpaid, so an $800 invoice with $200 paid counts $200 received and $600 outstanding. Received follows the date the money arrived.
+- Each invoice lists its payments with a progress bar. Delete a payment you entered by mistake (it asks first).
+- The PDF of a partly paid invoice shows the amount paid and the balance due, ready to send as a reminder.
+- Invoices you already marked as paid count as paid in full.
+
 ## v1.19.1 — 2026-10-30
 
 - If your GitHub token expires or stops working, the sync box now asks for a new token right there, so you can reconnect without leaving the page.
