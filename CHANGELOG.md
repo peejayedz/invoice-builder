@@ -2,6 +2,14 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.20.1 — 2026-11-04
+
+- Invoice numbers now come from the issue date: year, month and day, for example 2611-003 for November 3, 2026. A second invoice with the same issue date gets 2611-003-2. Invoices you already created keep their numbers.
+- After you create an invoice, the form shows a note that it's already created, with a Start new invoice button, so you don't update it by mistake.
+- Opening the page on a later day starts a new invoice automatically with today's date and the next number. Drafts you haven't created yet also move to today's date.
+- Updating an invoice you already created now says so in the confirmation and points to Start new invoice.
+- Open to edit no longer resets your email setup, templates or which sections are open.
+
 ## v1.20.0 — 2026-11-02
 
 - Partial payments: Record payment on any invoice to enter the amount you received, the date and an optional note. Add more payments as they come in.
