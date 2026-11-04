@@ -2,6 +2,13 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.21.0 — 2026-11-04
+
+- Password screen lockout: after 5 wrong passwords you wait 1 minute before trying again, with a live countdown.
+- Each wrong password after a wait locks it for longer: 5 minutes, then 15 minutes, then 1 hour.
+- It shows how many tries are left, and the count resets after the right password or a day with no wrong tries.
+- The lockout works per browser, so it slows down guessing; your strong password is still what protects your records.
+
 ## v1.20.1 — 2026-11-04
 
 - Invoice numbers now come from the issue date: year, month and day, for example 2611-003 for November 3, 2026. A second invoice with the same issue date gets 2611-003-2. Invoices you already created keep their numbers.
