@@ -2,6 +2,13 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.22.0 — 2026-11-09
+
+- Carry balance forward: when unpaid weeks are billed again on a later invoice, mark the old invoice as Carried forward. Its balance is then counted once, on the later invoice, so Total invoiced and Outstanding are correct.
+- Carried invoices show a Carried badge and "moved to" the later invoice; the later invoice notes what it includes. Undo is there if you need it.
+- When you start a new invoice for a client who still owes money, the Work items section offers to add the unpaid weeks. Payments cover the earliest weeks first, so only the unpaid ones are added. Creating the invoice links the two automatically.
+- New Carried forward filter on the Invoices tab. Deleting an invoice that holds carried weeks warns that the old balance will show as owed again.
+
 ## v1.21.0 — 2026-11-04
 
 - Password screen lockout: after 5 wrong passwords you wait 1 minute before trying again, with a live countdown.
