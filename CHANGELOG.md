@@ -2,6 +2,11 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.23.1 — 2026-11-09
+
+- Carried invoices now show how much was paid on them, e.g. "$200.00 paid" above "$600.00 moved to 2611-004-2" in the list, and in the line under the invoice number.
+- Each payment shows which weeks it covers, e.g. Covers Aug 31 – Sep 11, 2026 (2 weeks). Payments go to the earliest weeks first, so a carried balance and what's still owed show their weeks too. Record payment previews the weeks before you save.
+
 ## v1.23.0 — 2026-11-09
 
 - Schedule an invoice email: in the Email box, tick Send later and pick the date and time. Your Google script sends it from your Gmail with the PDF attached at that time, even if your computer is off.
