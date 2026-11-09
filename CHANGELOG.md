@@ -2,6 +2,14 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.23.0 — 2026-11-09
+
+- Schedule an invoice email: in the Email box, tick Send later and pick the date and time. Your Google script sends it from your Gmail with the PDF attached at that time, even if your computer is off.
+- Scheduled emails show on the invoice with Change and Cancel. Once sent, the invoice records it like any other email; if Gmail refuses, the invoice says so.
+- Updating an invoice that's scheduled sends the new PDF instead. Deleting it cancels the email. Sending now replaces a scheduled email.
+- Email sending has a one-time Update your Google script step and a Check script button. The private key and Web app URL stay the same.
+- Partly paid invoices now show exactly as you sent them (e.g. $700 Total due). Tick Show the balance due version to see the amount paid and the balance; Download PDF and Email then use that version for a reminder.
+
 ## v1.22.0 — 2026-11-09
 
 - Carry balance forward: when unpaid weeks are billed again on a later invoice, mark the old invoice as Carried forward. Its balance is then counted once, on the later invoice, so Total invoiced and Outstanding are correct.
