@@ -2,6 +2,30 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.25.0 — 2026-11-20
+
+- New On the invoice section. Account history is off unless you turn it on for an invoice: Last 3 months or From the start adds every week billed and every payment received, with the running balance, at the end of the invoice. The last balance is the amount due.
+- The account history is saved with the invoice, so the Invoices tab shows exactly what the client received.
+- See the client's account: the same weekly table, for you, under On the invoice.
+- Hourly work can show Hours and rate (as before), Hours only, or Amounts only for fixed-rate work.
+- Unpaid weeks billed again on a new invoice now say where they came from, e.g. Week of Oct 19 – 23, 2026 — unpaid from 2611-002.
+
+## v1.24.0 — 2026-11-20
+
+- Add weeks: one button that starts the day after you last billed the client, lists every week with a checkbox, and only ever adds. Weeks you already billed are greyed out.
+- Short weeks (a holiday, or dates starting midweek) are charged per day worked, or as a full week if you choose.
+- Rows billed by the hour show the sum (e.g. 10 hrs × $8.00/hr) and warn when the hourly rate is missing. Clear all work asks first.
+- Fixed: removing an unpaid week you added from an older invoice no longer marks that invoice as moved. Only what is actually on the new invoice is moved, so the money is never lost from Outstanding.
+- Only overdue invoices are offered for billing again, not ones that are still within their payment terms.
+- Overdue status with days late, an Overdue total and a breakdown of what is owed by how late it is.
+- Record payment: choose Wise, Western Union or Other, add the reference or MTCN, the fee and the pesos that landed. Dates before the invoice or in the future are refused, and extra money is kept as client credit.
+- Sent invoices are locked: changes are saved as revisions and you can view the version the client received.
+- Void with a reason replaces Delete, so every invoice number stays on record. Mark as unpaid is gone; delete single payments instead.
+- Totals by client now add up (Invoiced = Paid + Outstanding), with a check line under the totals.
+- Export for accountant: invoices and payments as spreadsheet (CSV) files for the period you picked.
+- New Settings tab for your details, payment details, email sending and templates. Create shows only what you need for an invoice; the buttons are now New invoice and Save invoice.
+- If GitHub can't be reached, the Invoices tab opens read-only instead of staying locked.
+
 ## v1.23.1 — 2026-11-09
 
 - Carried invoices now show how much was paid on them, e.g. "$200.00 paid" above "$600.00 moved to 2611-004-2" in the list, and in the line under the invoice number.
