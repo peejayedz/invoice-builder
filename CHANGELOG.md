@@ -2,6 +2,13 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.26.0 — 2026-11-20
+
+- Install the Invoice Builder as an app on your MacBook and iPhone: its own icon ("Invoices"), its own window, and the same invoices synced through GitHub.
+- Settings → Install as an app shows the steps: Safari File → Add to Dock or Chrome Install app on the Mac, and Share → Add to Home Screen on the iPhone. Chrome and Edge also get a one-click Install app button.
+- The app keeps a copy of the page so it opens even on a weak connection, and always checks for the newest version first. Your invoices still come from GitHub; when it can't be reached, Invoices opens read-only.
+- Each installed copy asks for your password once, then remembers the device.
+
 ## v1.25.0 — 2026-11-20
 
 - New On the invoice section. Account history is off unless you turn it on for an invoice: Last 3 months or From the start adds every week billed and every payment received, with the running balance, at the end of the invoice. The last balance is the amount due.
