@@ -2,6 +2,12 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.30.0 — 2026-11-25
+
+- Fix for totals counted twice: when an older invoice's unpaid weeks are billed again on a later invoice for the same client, they're now linked automatically (like Bill on a later invoice), so Outstanding and the client's Owed count them once. Undo on the older invoice if a link is wrong.
+- Click (or tap) the invoice preview to enlarge it. It opens full screen with zoom in and out, Download PDF, and ✕ or Esc to close.
+- Works on the Invoices tab, on New invoice, on the phone and in dark mode.
+
 ## v1.29.1 — 2026-11-25
 
 - On the phone, step 1 of New invoice now fills the screen, with the saved clients picker on its own line.
