@@ -2,6 +2,15 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.30.1 — 2026-11-25
+
+- Account history has more choices: last month, 2, 3, 6 or 12 months, this year, since a date you pick, or from the start.
+- In the account history each payment is its own line with the date it was paid, how it was paid and, for Western Union, the MTCN. You can turn the payment details off per invoice.
+- Record payment: choosing Western Union asks for the 10-digit MTCN and won't save without it. It's shown as 123-456-7890 on the invoice, in the account history and in Export for accountant.
+- Record payment starts with the method the client used last time (for example Western Union for Scott).
+- Record payment is shorter: the fee and pesos boxes are gone. Enter the amount you received. Fees and pesos on older payments are kept.
+- Weeks billed again from an older invoice are grouped under one heading on the invoice instead of repeating 'unpaid from' on every line.
+
 ## v1.30.0 — 2026-11-25
 
 - Fix for totals counted twice: when an older invoice's unpaid weeks are billed again on a later invoice for the same client, they're now linked automatically (like Bill on a later invoice), so Outstanding and the client's Owed count them once. Undo on the older invoice if a link is wrong.
