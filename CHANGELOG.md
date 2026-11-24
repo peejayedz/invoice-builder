@@ -2,6 +2,14 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.27.0 — 2026-11-24
+
+- Search for a client on the Invoices tab to see their summary: invoiced, paid, still owed and their last payment (or credit).
+- The summary lists each invoice that's still owed, with the weeks it covers. Click one to open it.
+- If the same weeks are still owed on more than one open invoice, the summary warns you and tells you how to link them, so they're only counted once.
+- Before an email goes out, a popup shows who it's going to, the subject, the attached PDF and the amount, so you can confirm or go back. Scheduled emails show the send time.
+- After sending, a popup confirms the email was sent (or scheduled), with the time. If it fails, a popup says so and nothing goes to the client.
+
 ## v1.26.1 — 2026-11-24
 
 - Partly paid invoices are no longer marked Overdue. They show Partly paid with the balance left, even after the due date.
