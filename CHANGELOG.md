@@ -2,6 +2,11 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.29.1 — 2026-11-25
+
+- On the phone, step 1 of New invoice now fills the screen, with the saved clients picker on its own line.
+- Your saved clients are listed under the form; tap one to fill in their details.
+
 ## v1.29.0 — 2026-11-24
 
 - New look on the computer, matching the phone: a cleaner top bar with the app icon, Invoices and Settings in the middle, and + New invoice on the right.
