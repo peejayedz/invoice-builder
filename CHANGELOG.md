@@ -2,6 +2,15 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.28.0 — 2026-11-24
+
+- New phone layout: a clean bottom bar with Invoices, a big + for a new invoice, and Settings.
+- The Invoices screen on your phone shows one Outstanding card, a search box, quick filters and a simple list. Totals and aging open when you tap See totals.
+- Tap an invoice to open it on its own screen: amount and status first, Record payment and Email, the payments, then the PDF. Less-used actions are under •••.
+- New invoice on the phone is three short steps: Client, Work and Review, with one big button at the bottom.
+- New app icon: a coin and an invoice on green. Reinstall or re-add the app to see it on your Home Screen and Dock.
+- The desktop layout is unchanged.
+
 ## v1.27.0 — 2026-11-24
 
 - Search for a client on the Invoices tab to see their summary: invoiced, paid, still owed and their last payment (or credit).
