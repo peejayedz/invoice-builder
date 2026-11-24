@@ -2,6 +2,14 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.29.0 — 2026-11-24
+
+- New look on the computer, matching the phone: a cleaner top bar with the app icon, Invoices and Settings in the middle, and + New invoice on the right.
+- Invoices: the green Outstanding card, search, filter buttons and a clean list on the left; the open invoice on the right with the amount and status first, Record payment, Email and a ••• menu for everything else, the payments, and the PDF beside them.
+- See totals and aging shows the totals, what's owed by how late, totals by client and Export for accountant in place of the list.
+- New invoice: one page in order (Client, Work, More options) with the total and Save invoice always in view on the right, above the preview.
+- The phone layout is unchanged.
+
 ## v1.28.0 — 2026-11-24
 
 - New phone layout: a clean bottom bar with Invoices, a big + for a new invoice, and Settings.
