@@ -2,6 +2,12 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.26.1 — 2026-11-24
+
+- Partly paid invoices are no longer marked Overdue. They show Partly paid with the balance left, even after the due date.
+- The late count on the Invoices tab and the Overdue total only count invoices with no payment yet. Partly paid balances have their own colour in What's owed, and there's a Partly paid filter.
+- Unpaid weeks from a partly paid invoice are still offered when you make the client's next invoice.
+
 ## v1.26.0 — 2026-11-20
 
 - Install the Invoice Builder as an app on your MacBook and iPhone: its own icon ("Invoices"), its own window, and the same invoices synced through GitHub.

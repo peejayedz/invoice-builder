@@ -2,7 +2,7 @@
 // It keeps a copy of the page and icons so the installed app opens even on a weak connection.
 // It always asks the network first, so a new version shows as soon as it's online.
 // GitHub (your invoices) is never cached here; the page handles that itself.
-const VERSION = "1.26.0";
+const VERSION = "1.26.1";
 const CACHE = "invoices-" + VERSION;
 const CORE = ["./", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./favicon-32.png"];
 const PDF_LIB = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/";
