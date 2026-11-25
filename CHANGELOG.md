@@ -2,6 +2,14 @@
 
 Every update to the Invoice Builder page is listed here, newest first. The version number also shows at the top left of the page.
 
+## v1.30.2 — 2026-11-25
+
+- Account history fix: a week that was billed again on a later invoice is now charged only once, so the running balance matches what's really owed.
+- A Western Union payment that was split across two invoices shows as one line (one date, one MTCN) in the account history.
+- Older invoices without an invoice number show by their date instead (for example Sep 10 invoice) in the list, on the invoice and in the account history.
+- Note to client is off for each new invoice. Tick Show a note on this invoice to add one.
+- On the phone the app opens on Invoices with the Open filter, so you see what's still owed first.
+
 ## v1.30.1 — 2026-11-25
 
 - Account history has more choices: last month, 2, 3, 6 or 12 months, this year, since a date you pick, or from the start.
